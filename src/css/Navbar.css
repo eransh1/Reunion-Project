@@ -1,0 +1,117 @@
+body{
+    font-family: "roboto";
+}
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #f1f5fd;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+}
+.brand-icon{
+    font-size: 1.8rem;
+    color: #6f5de7;
+    margin-left: 3.5rem;
+}
+.brand-name{
+    font-size: 1.5rem;
+    color: #241585;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+.nav-item{
+    padding: .5rem;
+    margin-left:2rem ;
+    margin-top: 1rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.nav-sub-item{
+    width: fit-content;
+}
+.activee{
+    color: #4c3ac2;
+    background-color:rgba(171, 165, 211, .4);
+
+}
+.first-nav-item{
+    margin-left: 5rem;
+}
+
+.nav-btn-Login{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    height: 2.5rem;
+    width: 6rem;
+    color: white;
+    background-color:#6f5de7!important;
+    border-radius: 6px;
+    border: .1rem solid #6f5de7;
+    margin-inline-start: auto;
+}
+.nav-btn-Login:hover{
+    color:#6f5de7;
+    border: .1rem solid #6f5de7;
+    background-color: transparent!important;
+    box-shadow: 2px 2px 2px 1px rgb(183, 171, 255 ,0.5);
+}
+
+.nav-btn-Signup{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    height: 2.5rem;
+    width: 6rem;
+    color:#6f5de7;
+    border: .1rem solid #6f5de7;
+    background-color: transparent!important;
+    box-shadow: 2px 2px 2px 1px rgb(183, 171, 255 ,0.5);
+    border-radius: 6px;
+}
+.nav-btn-Signup:hover{
+    color: white;
+    background-color:#6f5de7!important;
+}
+
+@media(max-width:950px){
+    .brand-icon{
+        font-size: 1.5rem;
+        color: #6f5de7;
+        margin-left: .5rem;
+    }  
+    .brand-name{
+  
+        margin-left: .1rem;
+    }
+    .nav-item{
+        padding: .5rem;
+        margin-left:.5rem ;
+        margin-top: 1rem;
+        font-weight: 700;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        cursor: pointer;
+    }
+    .nav-btn-Login{
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0 0rem;
+        height: 2.5rem;
+        width: 6rem;
+        color: white;
+        background-color:#6f5de7!important;
+        border-radius: 6px;
+        border: .1rem solid #6f5de7;
+    }
+}

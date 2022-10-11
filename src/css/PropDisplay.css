@@ -1,0 +1,102 @@
+#propDisplay{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f5fd;
+}
+.prop-disp-row{
+    width: 80%;
+    margin: 0 auto;
+}
+.prop-col{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1rem;
+}
+.prop-img-cont{
+    width: 100%;
+    height: 60%; 
+    border-top-left-radius:7px ;
+    border-top-right-radius: 7px;
+}
+.prop-img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:7px ;
+    border-top-right-radius: 7px;
+}
+.price{
+    background-color: white;
+    color: #6f5de7;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    padding-left:1rem;
+}
+span{
+    color: grey;
+    font-size: .9rem;
+    opacity: .6;
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: .5rem;
+    background-color: white;
+    margin-bottom: 0;
+    padding-left:1rem;
+}
+.address{
+    padding-top: .5rem;
+    color: grey;
+    opacity: .8;
+    background-color: white;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(183, 171, 255 ,0.5);
+    padding-left:1rem;
+    margin-bottom: 0;
+}
+.description{
+    display: flex;
+    background-color: white;
+    border-bottom-left-radius:7px ;
+    border-bottom-right-radius: 7px;
+}
+.bed{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color:grey
+}
+.bed-text{
+    margin-top: .8rem;
+    margin-left: .5rem;
+    color:grey
+}
+.tag{
+    background-color: #6f5de7;
+    color: white;
+    padding: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 3px;
+    width: fit-content;
+    position: absolute;
+    top: 44.5%;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    border: 1px solid #aea9cf;
+    position: absolute;
+    top: 55%;
+    right: 10%;
+}
+.heart{
+    color: grey;
+    cursor: pointer;
+}

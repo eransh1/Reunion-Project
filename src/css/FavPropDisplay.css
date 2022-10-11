@@ -1,0 +1,25 @@
+.fav-prop-display{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f5fd;
+}
+.pinned-prop-message{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f5fd;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    font-size: 2rem;
+    color: grey;
+    font-weight: 700;
+    opacity: .5;
+}
+.fav-prop-disp-row{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 4rem;
+}
+.trash{
+    cursor: pointer;
+}
